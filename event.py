@@ -45,5 +45,5 @@ class Event:
     def duration(self) -> timedelta:
         return self.end - self.start
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"start = {self.start}, end = {self.end}, movable = {self.movable}"
